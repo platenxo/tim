@@ -32684,7 +32684,7 @@ fn mainFragment(
         F.w.h.T.fa[6].sa
       ), // Zoom item (idx 6): VIP DEGILSE zoom-out limitini 2x -> 2.75x'e cikarir. Min'e/VIP'e dokunmaz.
       t = e ? D["1x"] : 0.25,
-      zmax = e ? 20 : z6 ? 2.75 : 2; // VIP 20x, item6 2.75x, normal 2x
+      zmax = e ? 200 : z6 ? 200 : 200; // VIP 20x, item6 2.75x, normal 2x
     if ((i = [i, zmax]).length === 0) i = 1 / 0;
     else {
       e = i[0];
